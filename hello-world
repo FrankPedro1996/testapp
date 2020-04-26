@@ -4,4 +4,4 @@ cd build
 cmake ../
 cmake --build .
 chmod +x app
-./app 
+#./app 
