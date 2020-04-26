@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cd "$(dirname "$0")"
-exec app 
+exec ./root/testapp/build/app
