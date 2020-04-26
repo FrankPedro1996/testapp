@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd "$(dirname "$0")"
+#exec ./helloworld.sh
+mkdir build
+cd build
+cmake ../
+cmake --build .
+chmod +x app
+./app
